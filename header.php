@@ -5,8 +5,8 @@
  * Displays all of the <head> section and everything up till <div id="main">
  *
  * @package WordPress
- * @subpackage Twenty_Thirteen
- * @since Twenty Thirteen 1.0
+ * @subpackage Deal_Points_Entertainment
+ * @since Deal Points Entertainment 1.0
  */
 ?><!DOCTYPE html>
 <!--[if IE 7]>
@@ -27,6 +27,7 @@
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
+	<link rel="stylesheet" href="/dealpointsent/wp-content/themes/dealpointsent/custom.css">
 	<?php wp_head(); ?>
 </head>
 

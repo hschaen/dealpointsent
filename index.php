@@ -10,8 +10,8 @@
  * @link http://codex.wordpress.org/Template_Hierarchy
  *
  * @package WordPress
- * @subpackage Twenty_Thirteen
- * @since Twenty Thirteen 1.0
+ * @subpackage Deal_Points_Entertainment
+ * @since Deal Points Entertainment 1.0
  */
 
 get_header(); ?>
