@@ -28,6 +28,8 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" href="/dealpointsent/wp-content/themes/dealpointsent/custom.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="/dealpointsent/wp-content/uploads/2013/12/favicon.ico" />
 	<?php wp_head(); ?>
 </head>
 

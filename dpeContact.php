@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Deal Points Entertainment
+ * Template Name: Contact - DPE
  *
  * @package WordPress
  * @subpackage Twenty_Thirteen
@@ -28,6 +28,7 @@ get_header(); ?>
 								+1(424)652-4411<br />
 								<a href="mailto:ak@dealpointsent.com?subject=Coming from Deal Points Entertainment website">ak@dealpointsent.com</a>
 							</p>
+							<div class="dpeLogo"><img src="http://harrisonschaen.com/dealpointsent/wp-content/uploads/2013/12/dealpointsentlogo.png" width="100" height="auto" alt="Deal Points Entertainment"></p>
 						</div>
 					</header><!-- .entry-header -->
 

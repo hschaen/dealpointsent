@@ -16,7 +16,7 @@
 
 			<div class="site-info">
 				<?php do_action( 'twentythirteen_credits' ); ?>
-				<a href="<?php echo esc_url( __( 'http://www.harrisonschaen.com', 'twentythirteen' ) ); ?>" title="<?php esc_attr_e( 'Creative design and development.', 'twentythirteen' ); ?>"><?php printf( __( 'by %s', 'twentythirteen' ), 'Harrisom Schaen' ); ?></a>
+				<a href="<?php echo esc_url( __( 'http://www.harrisonschaen.com', 'twentythirteen' ) ); ?>" title="<?php esc_attr_e( 'Creative design and development by Harrison Schaen.', 'twentythirteen' ); ?>"><?php printf( __( 'by %s', 'twentythirteen' ), 'Harrison Schaen' ); ?></a>
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->

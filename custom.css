@@ -1,6 +1,72 @@
-.homeLogo {
-float:right;
-padding:30px;
-width: 300px;
-height:auto;
+@media screen and (min-width:1030px) {
+	.homeLogo {
+	float:right;
+	padding:0px;
+	width: 430px;
+	height:auto;
+	}
+}
+
+.locationText {
+	font-size:24px;
+	line-height:1.6em;
+	color: #ffffff;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-weight:100;
+	text-align: center;
+}
+
+.homeContent, .resources, .contact, .fourohfour {
+	width: 50%;
+	margin: 0;
+	float:left;
+
+}
+.homeContent h1, .homeContent h2, .homeContent h3, .homeContent h4, 
+.resources h1, .resources h2, .resources h3, .resources h4,
+.contact h1, .contact h2, .contact h3, .contact h4,
+.fourohfour h1, .fourohfour h2, .fourohfour h3, .fourohfour h4  {font-family: 'Lato', sAns-serif; font-weight:300;}
+.homeContent h1, .resources h1, .contact h1, .fourohfour h1 {font-size:80px;}
+
+.dpeLogo {width:100px; height:auto; background-color: #ffffff; border:1px solid #c9c9c9; padding:30px text-align: center; align:center; margin:0 auto;}
+
+@media screen and (min-width:948px) and (max-width:1029px) {
+	.homeLogo {width: 320px; float:left;}
+	.homeContent, .resources, .contact, .fourohfour {
+	width: 65%!important;
+	margin: 0;
+	float:right;
+
+}
+	.locationText {
+		font-size: inherit;
+		line-height: inherit;
+	}
+	.homeContent h1, .resources h1, .contact h1, .fourohfour h1 { font-size: 80px;}
+}
+
+@media screen and (min-width:576px) and (max-width:947px) {
+	.homeLogo {display:none;}
+	.homeContent h1, .resources h1, .contact h1, .fourohfour h1 {font-size: 80px;}
+	
+	.homeContent, .resources, .contact, .fourohfour {
+	width: 98%;
+	margin: 0;
+
+	}
+}
+@media screen and (min-width:327px) and (max-width: 575px) {
+	.homeContent h1, .resources h1, .contact h1, .fourohfour h1 {font-size: 48px;}
+	.homeContent, .resources, .contact, .fourohfour {
+		width: 98%;
+		margin: 0;
+	}
+}
+@media screen and (max-width:326px) {
+	.homeContent h1, .resources h1, .contact h1, .fourohfour h1 {font-size: 40px;}
+	.homeContent, .resources, .contact, .fourohfour {
+		width: 98%;
+		margin: 0;
+	}
 }
